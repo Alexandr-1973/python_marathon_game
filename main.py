@@ -32,6 +32,9 @@ player_size = (20, 20)
 player = pygame.image.load("player.png").convert_alpha()  
 player_rect = pygame.Rect(player.get_width()/2, (HEIGHT/2 - player.get_height()), *player_size)
 
+
+
+
 player_move_down = [0, 5]
 player_move_right = [5, 0]
 player_move_top= [0, -5]
